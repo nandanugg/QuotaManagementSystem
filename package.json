@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./build/index.js",
-    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts",
-    "test": "tap --exclude=/node_modules/**/*.test.ts --timeout=10000 --bail ./service/**/*.test.ts "
+    "lint": "prettier --write \"**/*.ts\"",
+    "test": "tap run --timeout=10000 ./src/**/*.test.ts"
   },
   "author": "",
   "license": "ISC",
