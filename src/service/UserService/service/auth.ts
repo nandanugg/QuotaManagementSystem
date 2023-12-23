@@ -7,7 +7,7 @@ export type AuthServiceAdapter = {
 	CreateTokenByUser(user: User): Promise<Token>;
 };
 
-type AuthService = {
+export type AuthService = {
 	Login(email: string, password: string): Promise<Token | null>;
 };
 

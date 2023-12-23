@@ -17,7 +17,7 @@ export type UserServiceAdapter = {
 	DeleteUser: (usrId: string) => Promise<Error | null>;
 };
 
-type UserService = {
+export type UserService = {
 	GetAllUsers: () => Promise<User[] | null>;
 	InsertUser: (usr: User) => Promise<Error | null>;
 	UpdateUser: (usr: User) => Promise<Error | null>;
