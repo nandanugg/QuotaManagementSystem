@@ -1,4 +1,4 @@
-import { FileLog } from "../../entity/log";
+import { FileLog } from "../entity/log";
 import { FileServiceAdapter } from "./file";
 
 export function DeleteFileById(deps: FileServiceAdapter) {

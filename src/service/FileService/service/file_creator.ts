@@ -1,5 +1,5 @@
-import { File } from "../../entity/file";
-import { FileLog } from "../../entity/log";
+import { File } from "../entity/file";
+import { FileLog } from "../entity/log";
 import { FileServiceAdapter } from "./file";
 
 export function UploadFile(deps: FileServiceAdapter) {

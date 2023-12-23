@@ -1,4 +1,4 @@
-import { File } from "../../entity/file";
+import { File } from "../entity/file";
 import { FileServiceAdapter } from "./file";
 
 export function GetAllFiles(deps: FileServiceAdapter) {

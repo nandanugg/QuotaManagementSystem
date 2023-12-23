@@ -1,8 +1,8 @@
 import t from "tap";
 import sinon from "sinon";
 import { FileServiceAdapter } from "./file";
-import { FileLog } from "../../entity/log";
-import { File } from "../../entity/file";
+import { FileLog } from "../entity/log";
+import { File } from "../entity/file";
 import { GetAllFiles } from "./file_getter";
 
 const deps: FileServiceAdapter = {

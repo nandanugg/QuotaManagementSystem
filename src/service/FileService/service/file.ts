@@ -1,6 +1,6 @@
-import { File } from "../../entity/file";
-import { FileLog } from "../../entity/log";
-import { User } from "../../entity/user";
+import { File } from "../entity/file";
+import { FileLog } from "../entity/log";
+import { User } from "../entity/user";
 import { UploadFile } from "./file_creator";
 import { DeleteFileById } from "./file_deleter";
 import { GetAllFiles } from "./file_getter";

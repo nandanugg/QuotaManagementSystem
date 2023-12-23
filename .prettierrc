@@ -1,3 +1,4 @@
 {
-    "embeddedLanguageFormatting": "auto"
+    "embeddedLanguageFormatting": "auto",
+    "useTabs": true
 }
